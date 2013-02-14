@@ -19,12 +19,21 @@ fontsAlias :
 
 pageSetup :
   size: letter
-  margin-top: 4cm
-  margin-bottom: 4cm
+  margin-top: 2cm
+  margin-bottom: 2cm
   margin-left: 2cm
   margin-right: 2cm
   margin-gutter: 0cm
   firstTemplate: oneColumn
+
+pageTemplates:
+  oneColumn:
+    frames: []
+        [0%, 0%, 100%, 100%]
+    showHeader : false
+    showFooter : true
+    defaultFooter : ###Page###
+    defaultHeader : ###Section###
 
 styles: 
   normal :
