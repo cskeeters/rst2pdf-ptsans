@@ -56,3 +56,6 @@ styles:
 
   heading3:
     fontName: PTN57F
+
+  bullet-list:
+    spaceAfter:10
